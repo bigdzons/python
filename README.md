@@ -52,3 +52,39 @@ Podaj pierwszą liczbę.
 Podaj drugą liczbę.
 Wynik zostanie wyświetlony na ekranie.
 Uwaga: Upewnij się, że nie dzielisz przez zero. Program zabezpieczony jest przed takimi przypadkami i wyświetli odpowiednią wiadomość w przypadku próby dzielenia przez zero.
+
+
+#   Prosty kalkulator   #
+
+wybor = input("* mnozenie, / - dzielic, + - dodawac, - - odejmowac, ** - potegowanie, % - modulo: ")
+
+a = int(input("Pierwsza liczba: "))
+b = int(input("Druga Liczba: "))
+
+if (wybor == '*'):
+    if (b == 0):
+        print("Cholero nie mnóż przez zero")
+    else:
+        print(a * b)
+        
+elif (wybor == '/'):
+    if (b == 0):
+        print("Cholero nie dziel przez zero")
+    else:
+        print(a / b)
+        
+elif(wybor == '+'):
+    print(a + b)
+    
+elif(wybor == '-'):
+    print(a - b)
+    
+elif(wybor == '**'):
+    print(a ** b)
+    
+elif(wybor == '%'):
+    print(a % b)
+else:
+    print("Nie wybrales dobrego wyboru")
+
+
