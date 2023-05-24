@@ -2,18 +2,22 @@ SELECT:
 
 SELECT * FROM nazwa_tabeli;
 Powyższe zapytanie wybiera wszystkie kolumny (*) z danej tabeli.
+
 WHERE:
 
 SELECT * FROM nazwa_tabeli WHERE warunek;
 Powyższe zapytanie wybiera wszystkie rekordy z danej tabeli, które spełniają podany warunek.
+
 INSERT:
 
 INSERT INTO nazwa_tabeli (kolumna1, kolumna2, ...) VALUES (wartość1, wartość2, ...);
 Powyższe zapytanie dodaje nowy rekord do danej tabeli, podając wartości dla odpowiednich kolumn.
+
 UPDATE:
 
 UPDATE nazwa_tabeli SET kolumna = nowa_wartość WHERE warunek;
 Powyższe zapytanie aktualizuje wartość określonej kolumny w rekordach spełniających podany warunek.
+
 DELETE:
 
 DELETE FROM nazwa_tabeli WHERE warunek;
